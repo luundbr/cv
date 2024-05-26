@@ -1,0 +1,149 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    -webkit-print-color-adjust: exact;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: #e0cb63;
+    text-decoration: none;
+}
+
+.skills {
+    text-align: left !important;
+    margin-top: -15px !important;
+    font-size: 18px;
+    margin-left: -3px;
+}
+
+.exp-head {
+    font-size: 18px;
+}
+
+.exp-years {
+    font-size: 11px;
+}
+
+.exp-stack {
+    font-size: 13px;
+    margin-top: 11px !important;
+    color: #575656;
+}
+
+.exp-desc {
+    margin-top: -10px !important;
+    font-size: 16px;
+}
+
+.exp-items p {
+    margin-top: -15px;
+    margin-left: 12px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+.left-rectangle {
+    width: 30%;
+    height: 100%;
+    background-color: #393442;
+    color: #ebe8e8;
+}
+
+.right-content {
+    flex: 1;
+    background-color: #f0f0f0;
+}
+
+.left-rectangle p {
+    margin-top: 5%;
+    transform: translateY(-50%);
+}
+
+.name-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+img {
+    margin-right: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 32px;
+    margin: 0;
+}
+
+.title {
+    font-size: 20px;
+    margin: 0;
+    color: #5f5e61;
+}
+
+.contacts {
+    margin-top: 10px;
+}
+
+.contact {
+    font-size: 16px;
+    margin-top: -5px;
+    color: #100f11;
+}
+
+.centered-right-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.centered-right-content .exp-items {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.centered-right-content p.exp-head {
+    font-size: 18px;
+}
+
+.centered-right-content p.exp-years {
+    font-size: 16px;
+    color: #333;
+}
+
+.centered-right-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.centered-right-content ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.centered-right-content ul li::before {
+    content: "•";
+    color: #265485;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.centered-right-content p.title {
+    font-size: 22px;
+    color: #265485;
+    margin: 10px 0;
+}
+
+.etc-items {
+    font-size: 23px !important;
+}
